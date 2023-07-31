@@ -9,5 +9,6 @@ phases:
     commands:
     - echo "Deployed to S3"
 artifacts:
+  base-directory: build
   files:
     - '**/*'
